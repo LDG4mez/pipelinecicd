@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE = "your-dockerhub-username/flask-cicd-demo"
+        IMAGE = "ldg4mez/flask-cicd-demo"
     }
 
     stages {
